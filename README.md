@@ -47,5 +47,8 @@ npm run dev
 - Click Load Unpacked and select the chromemv3 folder in .output from the project directory.
 - The extension is now loaded in Chrome.
 
-https://github.com/user-attachments/assets/a585ad55-deeb-4974-b01f-e870e97ea237
+
+
+https://github.com/user-attachments/assets/e20420ed-3322-48b3-8512-112dd942ecbf
+
 
