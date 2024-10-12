@@ -1,4 +1,4 @@
-# WXT + React Chrome Extension
+# LinkedIn AI Extension
 
 This is a Chrome extension built using the **WXT framework** and **React**. It includes functionalities like displaying a modal for generating responses, inserting content into LinkedIn messages, and dynamic UI built with **Tailwind CSS**.
 
