@@ -60,6 +60,7 @@ const Modal: React.FC<ModalProps> = ({ onClose }) => {
                     </div>
                 </div>
 
+
                 <input
                     type="text"
                     value={inputValue}
