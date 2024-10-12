@@ -5,9 +5,7 @@ This is a Chrome extension built using the **WXT framework** and **React**. It i
 ## Table of Contents
 - [Installation](#installation)
 - [Running the Project](#running-the-project)
-- [Using Tailwind CSS](#using-tailwind-css)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Installation
 
