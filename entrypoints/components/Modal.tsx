@@ -11,12 +11,12 @@ const Modal: React.FC<ModalProps> = ({ onClose }) => {
     const [response, setResponse] = useState('');
     const [generateClicked, setGenerateClicked] = useState(false);
     const [inputValue, setInputValue] = useState('');
-    const [bubbleText, setBubbleText] = useState(''); // State for bubble text
+    const [bubbleText, setBubbleText] = useState(''); 
 
     const handleGenerate = () => {
         if (inputValue.trim() !== '') {
-            setBubbleText(inputValue); // Store the current input value into bubbleText
-            setInputValue(''); // Clear input field after storing the text
+            setBubbleText(inputValue); 
+            setInputValue(''); 
             setResponse('Thank you for the opportunity! If you have any more questions or if there\'s anything else I can help you with, feel free to ask.');
             setGenerateClicked(true);
         }
@@ -49,7 +49,7 @@ const Modal: React.FC<ModalProps> = ({ onClose }) => {
                     {generateClicked && bubbleText && (
                         <div className="flex justify-end">
                             <div className="bg-gray-200 text-left p-2 rounded-lg w-1/2">
-                                {bubbleText} {/* Display the saved bubbleText */}
+                                {bubbleText} 
                             </div>
                         </div>
                     )}
